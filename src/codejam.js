@@ -1,5 +1,5 @@
-function sumOfOther(arr) { 
-	let sum = arr.reduce(function(a, b) { 
+module.exports = function sumOfOther(arr) { 
+	let sum = arr.reduce(function(a, b) {
  		return a + b;
 		}, 0);
 

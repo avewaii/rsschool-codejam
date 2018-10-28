@@ -4,12 +4,15 @@
   "description": "3 tasks of code jam",
   "main": "codejam.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha test/test.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/eveshad/rsschool-codejam/tree/codejam-3"
+    "url": "git+https://github.com/eveshad/rsschool-codejam/tree/codejam-3"
   },
-  "author": "eveshad",
-  "license": "ISC"
+  "author": "eveshad <ewashadevsk@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^5.2.0"
+  }
 }
