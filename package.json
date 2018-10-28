@@ -1,0 +1,18 @@
+{
+  "name": "jam",
+  "version": "1.0.0",
+  "description": "3 tasks of code jam",
+  "main": "codejam.js",
+  "scripts": {
+    "test": "mocha test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eveshad/rsschool-codejam/tree/codejam-3"
+  },
+  "author": "eveshad <ewashadevsk@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^5.2.0"
+  }
+}
